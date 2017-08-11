@@ -1,5 +1,7 @@
 # Insert Spaces between Half/Fullwidths
 
+[![Build Status](https://travis-ci.org/tnagao7/vscode-insert-spaces.svg?branch=master)](https://travis-ci.org/tnagao7/vscode-insert-spaces)
+
 A Visual Studio Code extension for formatting documents written in Japanese or Chinese.
 
 ## Overview
