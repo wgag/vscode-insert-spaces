@@ -1,6 +1,6 @@
 # Insert Spaces between Half/Fullwidths
 
-This extension formats your Japanese/Chinese documents by inserting spaces between half- and full-width characters.
+Formats documents written in Japanese or Chinese by inserting spaces.
 
 ## Overview
 
@@ -22,7 +22,7 @@ $ npm install
 $ code .
 ```
 
-2. Press ``F5`` or select [Start] - [Start Debugging].
-3. Open your document to format.
-4. Press ``Ctrl+Shift+J``, then spaces are inserted.
-   If ``Ctrl+Shift+J`` does not work, Press ``F1`` and run ``Insert Spaces between Half/Fullwidths``.
+2. Press ``F5`` (or select [Start] - [Start Debugging]).
+3. Open a document you want to format.
+4. Press ``Ctrl+Shift+J`` to format the document.
+   If ``Ctrl+Shift+J`` does not work, press ``F1`` and run ``Insert Spaces between Half/Fullwidths``.
