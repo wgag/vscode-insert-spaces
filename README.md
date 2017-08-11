@@ -40,7 +40,7 @@ $ npm run compile
 
 1. Open a document you want to format.
 2. Press ``Ctrl+Shift+J`` to format the document.
-   If the keybind ``Ctrl+Shift+J`` does not work, press ``Ctrl+Shift+P`` and run the command named ``Insert Spaces between Half/Fullwidths``.
+   If the keybind ``Ctrl+Shift+J`` does not work, press ``Ctrl+Shift+P`` and run the command named ``Insert Spaces between Half/Fullwidth Characters``.
 
 By default, spaces are inserted to the whole document.
 To apply the operation to a part of the document, highlight the part before pressing ``Ctrl+Shift+J``.
