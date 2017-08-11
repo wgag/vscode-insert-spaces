@@ -20,7 +20,7 @@ is formatted as follows:
    If the keybind ``Ctrl+Shift+J`` does not work, press ``Ctrl+Shift+P`` and run the command named ``Insert Spaces between Half/Fullwidth Characters``.
 
 By default, spaces are inserted to the whole document.
-To apply the operation to a part of the document, highlight the part before pressing ``Ctrl+Shift+J``.
+To apply the operation to a part of a document, highlight the part before pressing ``Ctrl+Shift+J``.
 
 ## Installation
 
@@ -28,9 +28,9 @@ To apply the operation to a part of the document, highlight the part before pres
 
 This extension is available on the [marketplace](https://marketplace.visualstudio.com/items?itemName=tnagao7.insert-spaces-between-half-fullwidths).
 
-In VS Code, press ``Ctrl+Shift+P`` and execute ``ext install insert-spaces-between-half-fullwidths``.
+In VS Code, press ``Ctrl+P`` and execute ``ext install insert-spaces-between-half-fullwidths``.
 
-### Installing from GitHub
+### Building from Source
 
 Run the following commands:
 
