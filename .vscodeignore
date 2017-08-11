@@ -3,6 +3,8 @@
 out/test/**
 test/**
 src/**
-**/*.map
 .gitignore
 tsconfig.json
+**/*.ts
+**/*.map
+**/*.vsix
