@@ -22,7 +22,7 @@ is formatted as follows:
 
 ## Installation
 
-1. Move to your VS extension directory.
+1. Move to your VS Code extension directory.
 ```
 $ cd ~/.vscode/extensions
 ```
@@ -32,12 +32,12 @@ $ cd ~/.vscode/extensions
 $ git clone https://github.com/tnagao7/vscode-insert-spaces.git
 ```
 
-3. Move to ``vscode-insert-spaces`` and install necessary packages.
+3. Move to the generated directory ``vscode-insert-spaces`` and download necessary packages.
 ```
 $ cd vscode-insert-spaces
 $ npm install
 ```
 4. Compile the extension.
 ```
-$ npm compile
+$ npm run compile
 ```
