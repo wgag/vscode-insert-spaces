@@ -37,9 +37,9 @@ In VS Code, press ``Ctrl+P`` and execute ``ext install insert-spaces-between-hal
 Run the following commands:
 
 ```
-$ cd ~/.vscode/extensions
 $ git clone https://github.com/tnagao7/vscode-insert-spaces.git
 $ cd vscode-insert-spaces
 $ npm install
 $ npm run compile
+$ mv . ~/.vscode/extensions
 ```
