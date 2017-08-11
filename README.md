@@ -1,28 +1,43 @@
 # Insert Spaces between Half/Fullwidths
 
-Formats documents written in Japanese or Chinese by inserting spaces.
+A VS Code extension for formatting documents written in Japanese or Chinese.
 
 ## Overview
 
-Before:
+This extension formats your documents by inserting spaces between half- and full-width characters.
+For example, the document
 
 > 今日は2017年8月11日(金)。
 
-After:
+is formatted as follows:
 
 > 今日は 2017 年 8 月 11 日 (金)。
 
-## Quick start
+## Usage
 
-1. Run the following commands:
+1. Open a document you want to format.
+2. Press ``Ctrl+Shift+J`` to format the document.
+   If the keybind ``Ctrl+Shift+J`` does not work, press ``Ctrl+Shift+P`` and run the command named ``Insert Spaces between Half/Fullwidths``.
+
+
+## Installation
+
+1. Move to your VS extension directory.
+```
+$ cd ~/.vscode/extensions
+```
+
+2. Clone the repository.
 ```
 $ git clone https://github.com/tnagao7/vscode-insert-spaces.git
-$ cd vscode-insert-spaces
-$ npm install
-$ code .
 ```
 
-2. Press ``F5`` (or select [Start] - [Start Debugging]).
-3. Open a document you want to format.
-4. Press ``Ctrl+Shift+J`` to format the document.
-   If ``Ctrl+Shift+J`` does not work, press ``F1`` and run ``Insert Spaces between Half/Fullwidths``.
+3. Move to ``vscode-insert-spaces`` and install necessary packages.
+```
+$ cd vscode-insert-spaces
+$ npm install
+```
+4. Compile the extension.
+```
+$ npm compile
+```
