@@ -24,6 +24,12 @@ To apply the operation to a part of the document, highlight the part before pres
 
 ## Installation
 
+### Installing from VS Code
+
+This extension is available on the [marketplace](https://marketplace.visualstudio.com/items?itemName=tnagao7.insert-spaces-between-half-fullwidths).
+
+In VS Code, press ``Ctrl+Shift+P`` and execute ``ext install insert-spaces-between-half-fullwidths``.
+
 ### Installing from GitHub
 
 Run the following commands:
