@@ -28,9 +28,9 @@ To format a part of the document, highlight that part beforehand.
 
 ### Installing from VS Code
 
-This extension is available on the [marketplace](https://marketplace.visualstudio.com/items?itemName=wgag.insert-spaces-half-full).
+This extension is available on the [marketplace](https://marketplace.visualstudio.com/items?itemName=wgag.insert-spaces).
 
-In VS Code, press ``Ctrl+P`` and execute ``ext install insert-spaces-half-full``.
+In VS Code, press ``Ctrl+P`` and execute ``ext install insert-spaces``.
 
 ### Building from Source
 
@@ -41,5 +41,5 @@ $ git clone https://github.com/wgag/vscode-insert-spaces.git
 $ cd vscode-insert-spaces
 $ npm install
 $ npm run compile
-$ cp -r . ~/.vscode/extensions/wgag.insert-spaces-half-full-1.x.x
+$ cp -r . ~/.vscode/extensions/wgag.insert-spaces-1.x.x
 ```
