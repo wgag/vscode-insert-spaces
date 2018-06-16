@@ -3,8 +3,8 @@
     "displayName": "Insert Spaces between Half/Fullwidths",
     "description": "Inserting spaces between full- and half-width characters.",
     "version": "1.1.0",
-    "publisher": "tnagao7",
-    "repository" : "https://github.com/tnagao7/vscode-insert-spaces",
+    "publisher": "wgag",
+    "repository" : "https://github.com/wgag/vscode-insert-spaces",
     "engines": {
         "vscode": "^1.11.0"
     },
