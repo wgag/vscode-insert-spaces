@@ -2,11 +2,11 @@
     "name": "insert-spaces-between-half-fullwidths",
     "displayName": "Insert Spaces between Half/Fullwidths",
     "description": "Inserting spaces between full- and half-width characters.",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "publisher": "tnagao7",
     "repository" : "https://github.com/tnagao7/vscode-insert-spaces",
     "engines": {
-        "vscode": "^1.10.5"
+        "vscode": "^1.11.0"
     },
     "categories": [
         "Other"
@@ -19,13 +19,13 @@
         "commands": [
             {
                 "command": "extension.insertspace",
-                "title": "Insert Spaces between Full/Halfwidth Characters"
+                "title": "Insert Spaces between Full/Halfwidths"
             }
         ],
         "keybindings": [
             {
                 "command": "extension.insertspace",
-                "key": "Ctrl+Shift+J"
+                "key": "Ctrl+Shift+I"
             }
         ]
     },

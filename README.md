@@ -6,23 +6,23 @@ A Visual Studio Code extension for formatting documents written in Japanese or C
 
 ## Overview
 
-This extension formats your documents by inserting spaces between half- and full-width characters.
-For example, the document
+This extension formats your document by inserting spaces between half- and full-width characters.
+For example, the text
 
-> 今日は2017年8月11日(金)。
+> 今日は2017年8月11日(金)、快晴です。
 
 is formatted as follows:
 
-> 今日は 2017 年 8 月 11 日 (金)。
+> 今日は 2017 年 8 月 11 日 (金)、快晴です。
 
 ## Usage
 
-1. Open a document you want to format.
-2. Press ``Ctrl+Shift+J`` to format the document.
-   If the keybind ``Ctrl+Shift+J`` does not work, press ``Ctrl+Shift+P`` and run the command named ``Insert Spaces between Half/Fullwidth Characters``.
+1. Open a document to format.
+2. Press ``Ctrl+Shift+I`` to format the document.
+   If it does not work, press ``Ctrl+Shift+P`` and run the command ``Insert Spaces between Half/Fullwidths``.
 
 By default, spaces are inserted to the whole document.
-To apply the operation to a part of a document, highlight the part before pressing ``Ctrl+Shift+J``.
+To format a part of the document, highlight that part beforehand.
 
 ## Installation
 
